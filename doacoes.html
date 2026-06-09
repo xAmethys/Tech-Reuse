@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Doações</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Tech Reuse</h1>
+
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="doacoes.html">Doações</a>
+      <a href="equipamentos.html">Equipamentos</a>
+    </nav>
+  </header>
+
+  <section class="container">
+
+    <h2>Doações</h2>
+
+    <form id="formDoacao">
+
+      <label>Nome:</label>
+      <input type="text" required>
+
+      <label>Equipamento:</label>
+
+      <select id="equipamento">
+        <option>Monitor</option>
+        <option>Gabinete</option>
+        <option>Memória RAM</option>
+        <option>Processador</option>
+        <option>Placa Mãe</option>
+        <option>Fonte</option>
+        <option>HD</option>
+        <option>Mouse</option>
+        <option>Teclado</option>
+      </select>
+
+      <button type="submit">Registre sua doação</button>
+
+    </form>
+
+    <p id="mensagem"></p>
+
+  </section>
+
+  <script src="js/doacoes.js"></script>
+
+</body>
+
+</html>
